@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE quiz SYSTEM "quiz.dtd">
+<quiz versao="1.0">
+    <disciplina>Programação Orientada a Serviços</disciplina>
+    <professor>
+      <nome>Diego Cirilo</nome>
+      <matrícula>987654</matrícula>
+    </professor>
+    <turma>Infoweb 4M</turma>
+    <data>2025-05-22</data>
+    <questões>
+      <questão>
+        <enunciado>O que é um serviço em Programação Orientada a Serviços (POS)?</enunciado>
+        <pontuação>2</pontuação>
+        <alternativas>
+          <alternativa correta="sim">Um componente de software que oferece uma funcionalidade específica para outros sistemas ou aplicações.</alternativa>
+          <alternativa correta="nao">Um banco de dados que armazena informações de serviços de clientes.</alternativa>
+          <alternativa correta="nao">Uma aplicação que pode ser executada de forma autônoma sem interagir com outros sistemas.</alternativa>
+          <alternativa correta="nao">Uma API que apenas retorna dados estáticos para o usuário.</alternativa>
+        </alternativas>
+      </questão>
+      <questão>
+        <enunciado>Qual é a principal característica da Programação Orientada a Serviços?</enunciado>
+        <pontuação>2</pontuação>
+        <alternativas>
+          <alternativa correta="nao">A execução de código diretamente no banco de dados.</alternativa>
+          <alternativa correta="nao">A criação de aplicativos monolíticos que dependem de um único servidor.</alternativa>
+          <alternativa correta="sim">A construção de sistemas baseados em componentes independentes que se comunicam via redes.</alternativa>
+          <alternativa correta="nao">A integração de sistemas sem utilizar APIs ou protocolos de comunicação.</alternativa>
+        </alternativas>
+      </questão>
+      <questão>
+        <enunciado>O que é uma API em Programação Orientada a Serviços?</enunciado>
+        <pontuação>2</pontuação>
+        <alternativas>
+          <alternativa correta="nao">Uma ferramenta para desenhar interfaces gráficas.</alternativa>
+          <alternativa correta="sim">Um conjunto de definições que permite que diferentes sistemas se comuniquem entre si.</alternativa>
+          <alternativa correta="nao">Um banco de dados que armazena dados de usuários de um sistema.</alternativa>
+          <alternativa correta="nao">Um tipo de linguagem de programação utilizada para a criação de software.</alternativa>
+        </alternativas>
+      </questão>
+      <questão>
+        <enunciado>Qual protocolo é comumente utilizado para a comunicação entre serviços em uma arquitetura de Programação Orientada a Serviços?</enunciado>
+        <pontuação>2</pontuação>
+        <alternativas>
+          <alternativa correta="nao">FTP (File Transfer Protocol)</alternativa>
+          <alternativa correta="nao">SMTP (Simple Mail Transfer Protocol)</alternativa>
+          <alternativa correta="sim">HTTP (HyperText Transfer Protocol)</alternativa>
+          <alternativa correta="nao">POP3 (Post Office Protocol 3)</alternativa>
+        </alternativas>
+      </questão>
+      <questão>
+        <enunciado>Qual é o objetivo do conceito de "microservices" na Programação Orientada a Serviços?</enunciado>
+        <pontuação>2</pontuação>
+        <alternativas>
+          <alternativa correta="nao">Fazer com que todos os componentes do sistema compartilhem um único banco de dados.</alternativa>
+          <alternativa correta="nao">Permitir que um único serviço execute várias funções de forma simultânea.</alternativa>
+          <alternativa correta="sim">Dividir a aplicação em pequenos serviços independentes, cada um com sua própria responsabilidade.</alternativa>
+          <alternativa correta="nao">Concentrar todas as funcionalidades em um único servidor para melhorar a performance.</alternativa>
+        </alternativas>
+      </questão>
+    </questões>
+  </quiz>
