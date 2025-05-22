@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!ELEMENT cardapio (prato+)>
+<<<<<<< HEAD
 <!ELEMENT prato (nome, descricao, ingredientes+, preco, calorias, tempoPreparo)>
+=======
+<!ELEMENT prato (nome,descricao,ingredientes+,preco,calorias,tempoPreparo)>
+>>>>>>> 504ca1ff4e66d5c7668df05b0b70493bb60afb06
 <!ATTLIST prato id ID #REQUIRED>
 <!ELEMENT nome (#PCDATA)>
 <!ELEMENT descricao (#PCDATA)>
