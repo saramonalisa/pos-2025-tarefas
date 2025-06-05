@@ -1,0 +1,58 @@
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:q="http://quiz.org"
+        targetNamespace="http://quiz.org"
+        elementFormDefault="qualified">
+    <element name="quiz">
+        <complexType>
+            <sequence>
+                <element name="diciplina" type="string"/>
+                <element name="professor">
+                    <complexType>
+                        <sequence>
+                            <element name="nome" type="string"/>
+                            <element name="matricula" type="string" minOccurs="0"/>
+                        </sequence>
+                    </complexType>
+                </element>
+                <element name="turma" type="string"/>
+                <element name="data" type="string"/>
+                <element name="questões">
+                    <complexType>
+                        <sequence>
+                            <element name="questão" maxOccurs="unbounded">
+                                <complexType>
+                                    <sequence>
+                                        <element name="enunciado" type="string"/>
+                                        <element name="pontuação" type="integer"/>
+                                        <element name="alternativas" maxOccurs="4">
+                                            <complexType>
+                                                <sequence>
+                                                    <element name="alternativa">
+                                                        <complexType>
+                                                            <simpleContent>
+                                                                <extension base="string">
+                                                                    <attribute name="correta" use="required">
+                                                                        <simpleType>
+                                                                            <restriction base="string">
+                                                                                <enumeration value="sim"/>
+                                                                                <enumeration value="nao"/>
+                                                                            </restriction>
+                                                                        </simpleType>
+                                                                    </attribute>
+                                                                </extension>
+                                                            </simpleContent>
+                                                        </complexType>
+                                                    </element>
+                                                </sequence>
+                                            </complexType>
+                                        </element>
+                                    </sequence>
+                                </complexType>
+                            </element>
+                        </sequence>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+</schema>
