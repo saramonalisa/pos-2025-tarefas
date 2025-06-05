@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cardapio xmlns="http://cardapio.org"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+        xsi:schemaLocation="http://cardapio.org cardapio.xsd">
+
+    <prato id="1">
+        <nome>Risoto de Cogumelos</nome>
+        <descricao>Risoto cremoso preparado com arroz arbório, cogumelos frescos e toque de parmesão.</descricao>
+        <ingredientes>
+            <ingrediente>Arroz arbório</ingrediente>
+            <ingrediente>Cogumelos frescos</ingrediente>
+            <ingrediente>Cebola</ingrediente>
+            <ingrediente>Alho</ingrediente>
+            <ingrediente>Vinho branco</ingrediente>
+            <ingrediente>Caldo de legumes</ingrediente>
+            <ingrediente>Parmesão</ingrediente>
+            <ingrediente>Manteiga</ingrediente>
+        </ingredientes>
+        <preco>R$42.90</preco>
+        <calorias>520</calorias>
+        <tempoPreparo>35 minutos</tempoPreparo>
+    </prato>   
+    <prato id="2">
+        <nome>Frango Grelhado com Quinoa e Legumes</nome>
+        <descricao>Peito de frango grelhado servido com quinoa ao vapor e legumes salteados.</descricao>
+        <ingredientes>
+            <ingrediente>Peito de frango</ingrediente>
+            <ingrediente>Quinoa</ingrediente>
+            <ingrediente>Cenoura</ingrediente>
+            <ingrediente>Abobrinha</ingrediente>
+            <ingrediente>Pimentão</ingrediente>
+            <ingrediente>Azeite</ingrediente>
+            <ingrediente>Sal</ingrediente>
+            <ingrediente>Pimenta</ingrediente>
+        </ingredientes>
+        <preco>R$38.50</preco>
+        <calorias>480</calorias>
+        <tempoPreparo>30 minutos</tempoPreparo>
+    </prato>   
+    <prato id="3">
+        <nome>Lasanha Vegetariana</nome>
+        <descricao>Lasanha de legumes com camadas de massa fresca, molho de tomate e queijo gratinado.</descricao>
+        <ingredientes>
+            <ingrediente>Massa de lasanha</ingrediente>
+            <ingrediente>Berinjela</ingrediente>
+            <ingrediente>Abobrinha</ingrediente>
+            <ingrediente>Cenoura</ingrediente>
+            <ingrediente>Molho de tomate</ingrediente>
+            <ingrediente>Muçarela</ingrediente>
+            <ingrediente>Parmesão</ingrediente>
+        </ingredientes>
+        <preco>R$36.00</preco>
+        <calorias>590</calorias>
+        <tempoPreparo>40 minutos</tempoPreparo>
+    </prato> 
+    <prato id="4">
+        <nome>Salmão ao Molho de Maracujá</nome>
+        <descricao>Filé de salmão grelhado com molho suave de maracujá, acompanhado de arroz negro.</descricao>
+        <ingredientes>
+            <ingrediente>Salmão</ingrediente>
+            <ingrediente>Maracujá</ingrediente>
+            <ingrediente>Creme de leite</ingrediente>
+            <ingrediente>Arroz negro</ingrediente>
+            <ingrediente>Alho</ingrediente>
+            <ingrediente>Azeite</ingrediente>
+            <ingrediente>Sal</ingrediente>
+        </ingredientes>
+        <preco>R$58.70</preco>
+        <calorias>610</calorias>
+        <tempoPreparo>45 minutos</tempoPreparo>
+    </prato>  
+    <prato id="5">
+        <nome>Espaguete à Bolonhesa</nome>
+        <descricao>Tradicional espaguete com molho bolonhesa feito com carne moída e tomates frescos.</descricao>
+        <ingredientes>
+            <ingrediente>Espaguete</ingrediente>
+            <ingrediente>Carne moída</ingrediente>
+            <ingrediente>Tomate</ingrediente>
+            <ingrediente>Cebola</ingrediente>
+            <ingrediente>Alho</ingrediente>
+            <ingrediente>Azeite</ingrediente>
+            <ingrediente>Sal</ingrediente>
+            <ingrediente>Pimenta</ingrediente>
+            <ingrediente>Manjericão</ingrediente>
+        </ingredientes>
+        <preco>R$34.90</preco>
+        <calorias>670</calorias>
+        <tempoPreparo>25 minutos</tempoPreparo>
+    </prato>
+
+</cardapio>
