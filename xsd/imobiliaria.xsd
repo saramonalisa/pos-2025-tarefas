@@ -1,0 +1,51 @@
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+    xmlns:i="http://imobiliaria.org"
+    targetNamespace="http://imobiliaria.org"
+    elementFormDefault="qualified">
+
+    <element name="imobiliaria">
+        <complexType>
+            <sequence>
+                <element name="imovel" maxOccurs="unbounded">
+                    <complexType>
+                        <sequence>
+                            <element name="descricao" type="string"/>
+                            <element name="proprietario">
+                                <complexType>
+                                    <sequence>
+                                        <element name="nome" type="string"/>
+                                        <choice minOccurs="0" maxOccurs="unbounded">
+                                            <element name="email" type="string"/>
+                                            <element name="telefone" type="string"/>
+                                        </choice>
+                                    </sequence>
+                                </complexType>
+                            </element>
+                            <element name="endereco">
+                                <complexType>
+                                    <sequence>
+                                        <element name="rua" type="string"/>
+                                        <element name="bairro" type="string"/>
+                                        <element name="cidade" type="string"/>
+                                        <element name="numero" type="integer" minOccurs="0"/>
+                                    </sequence>
+                                </complexType>
+                            </element>
+                            <element name="caracteristicas">
+                                <complexType>
+                                    <sequence>
+                                        <element name="tamanho" type="decimal"/>
+                                        <element name="numQuartos" type="integer"/>
+                                        <element name="numBanheiros" type="integer"/>
+                                    </sequence>
+                                </complexType>
+                            </element>
+                            <element name="valor" type="string"/>
+                        </sequence>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+
+</schema>

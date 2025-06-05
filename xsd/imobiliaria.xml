@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<imobiliaria xmlns="http://imobiliaria.org"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://imobiliaria.org imobiliaria.xsd">
+             
+  <imovel>
+    <descricao>Apartamento moderno com varanda gourmet.</descricao>
+    <proprietario>
+      <nome>João Silva</nome>
+      <telefone>11999999999</telefone>
+      <telefone>11988888888</telefone>
+      <email>joao.silva@email.com</email>
+    </proprietario>
+    <endereco>
+      <rua>Rua das Palmeiras</rua>
+      <bairro>Jardim América</bairro>
+      <cidade>São Paulo</cidade>
+      <numero>100</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>85</tamanho>
+      <numQuartos>2</numQuartos>
+      <numBanheiros>2</numBanheiros>
+    </caracteristicas>
+    <valor>750000</valor>
+  </imovel>
+
+  <imovel>
+    <descricao>Casa ampla com quintal e churrasqueira.</descricao>
+    <proprietario>
+      <nome>Maria Oliveira</nome>
+      <telefone>21977777777</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Rua das Flores</rua>
+      <bairro>Centro</bairro>
+      <cidade>Rio de Janeiro</cidade>
+      <numero>205</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>150</tamanho>
+      <numQuartos>4</numQuartos>
+      <numBanheiros>3</numBanheiros>
+    </caracteristicas>
+    <valor>980000</valor>
+  </imovel>
+
+  <imovel>
+    <descricao>Studio compacto ideal para estudantes.</descricao>
+    <proprietario>
+      <nome>Paulo Mendes</nome>
+      <email>paulo@email.com</email>
+    </proprietario>
+    <endereco>
+      <rua>Avenida Central</rua>
+      <bairro>Universitário</bairro>
+      <cidade>Campinas</cidade>
+    </endereco>
+    <caracteristicas>
+      <tamanho>35</tamanho>
+      <numQuartos>1</numQuartos>
+      <numBanheiros>1</numBanheiros>
+    </caracteristicas>
+    <valor>220000</valor>
+  </imovel>
+
+  <imovel>
+    <descricao>Sobrado de luxo com piscina.</descricao>
+    <proprietario>
+      <nome>Luciana Pereira</nome>
+      <telefone>31966666666</telefone>
+      <email>luciana@email.com</email>
+    </proprietario>
+    <endereco>
+      <rua>Rua do Sol</rua>
+      <bairro>Luxor</bairro>
+      <cidade>Belo Horizonte</cidade>
+      <numero>45</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>200</tamanho>
+      <numQuartos>5</numQuartos>
+      <numBanheiros>4</numBanheiros>
+    </caracteristicas>
+    <valor>1500000</valor>
+  </imovel>
+
+  <imovel>
+    <descricao>Kitnet próxima ao metrô.</descricao>
+    <proprietario>
+      <nome>Fernando Lima</nome>
+      <telefone>11955555555</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Rua dos Estudantes</rua>
+      <bairro>Liberdade</bairro>
+      <cidade>São Paulo</cidade>
+    </endereco>
+    <caracteristicas>
+      <tamanho>30</tamanho>
+      <numQuartos>1</numQuartos>
+      <numBanheiros>1</numBanheiros>
+    </caracteristicas>
+    <valor>190000</valor>
+  </imovel>
+
+</imobiliaria>
