@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<quiz xmlns="http://quiz.org"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+        xsi:schemaLocation="http://quiz.org quiz.xsd">
 
-<quiz versao="1.0">
   <disciplina>Programação Orientada a Serviços</disciplina>
   <professor>
     <nome>Diego Cirilo</nome>
