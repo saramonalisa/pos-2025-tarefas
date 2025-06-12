@@ -16,7 +16,7 @@
             <ingrediente>Parmesão</ingrediente>
             <ingrediente>Manteiga</ingrediente>
         </ingredientes>
-        <preco>R$42.90</preco>
+        <preco>42.90</preco>
         <calorias>520</calorias>
         <tempoPreparo>35 minutos</tempoPreparo>
     </prato>   
@@ -33,7 +33,7 @@
             <ingrediente>Sal</ingrediente>
             <ingrediente>Pimenta</ingrediente>
         </ingredientes>
-        <preco>R$38.50</preco>
+        <preco>38.50</preco>
         <calorias>480</calorias>
         <tempoPreparo>30 minutos</tempoPreparo>
     </prato>   
