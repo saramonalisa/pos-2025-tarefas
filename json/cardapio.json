@@ -1,0 +1,103 @@
+{
+    "cardapio": {
+        "prato": [
+            {
+                "id": 1,
+                "nome": "Risoto de Cogumelos",
+                "descricao": "Risoto cremoso preparado com arroz arbório, cogumelos frescos e toque de parmesão.",
+                "ingredientes": {
+                    "ingrediente": [
+                        "Arroz arbório",
+                        "Cogumelos frescos",
+                        "Cebola",
+                        "Alho",
+                        "Vinho branco",
+                        "Caldo de legumes",
+                        "Parmesão",
+                        "Manteiga"
+                    ]
+                },
+                "preco": 42.9,
+                "calorias": 520,
+                "tempoPreparo": "35 minutos"
+            },
+            {
+                "id": 2,
+                "nome": "Frango Grelhado com Quinoa e Legumes",
+                "descricao": "Peito de frango grelhado servido com quinoa ao vapor e legumes salteados.",
+                "ingredientes": {
+                    "ingrediente": [
+                        "Peito de frango",
+                        "Quinoa",
+                        "Cenoura",
+                        "Abobrinha",
+                        "Pimentão",
+                        "Azeite",
+                        "Sal",
+                        "Pimenta"
+                    ]
+                },
+                "preco": 38.5,
+                "calorias": 480,
+                "tempoPreparo": "30 minutos"
+            },
+            {
+                "id": 3,
+                "nome": "Lasanha Vegetariana",
+                "descricao": "Lasanha de legumes com camadas de massa fresca, molho de tomate e queijo gratinado.",
+                "ingredientes": {
+                    "ingrediente": [
+                        "Massa de lasanha",
+                        "Berinjela",
+                        "Abobrinha",
+                        "Cenoura",
+                        "Molho de tomate"
+                    ]
+                },
+                "preco": 35,
+                "calorias": 600,
+                "tempoPreparo": "40 minutos"
+            },
+            {
+                "id": 4,
+                "nome": "Salmão ao Molho de Maracujá",
+                "descricao": "Filé de salmão grelhado com molho suave de maracujá, acompanhado de arroz negro.",
+                "ingredientes": {
+                    "ingrediente": [
+                        "Salmão",
+                        "Maracujá",
+                        "Creme de leite",
+                        "Arroz negro",
+                        "Alho",
+                        "Azeite",
+                        "Sal"
+                    ]
+                },
+                "preco": 58.7,
+                "calorias": 610,
+                "tempoPreparo": "45 minutos"
+            },
+            {
+                "id": 5,
+                "nome": "Espaguete à Bolonhesa",
+                "descricao": "Tradicional espaguete com molho bolonhesa feito com carne moída e tomates frescos.",
+                "ingredientes": {
+                    "ingrediente": [
+                        "Espaguete",
+                        "Carne moída",
+                        "Tomate",
+                        "Cebola",
+                        "Alho",
+                        "Azeite",
+                        "Sal",
+                        "Pimenta",
+                        "Manjericão"
+                    ]
+                },
+                "preco": 34.9,
+                "calorias": 670,
+                "tempoPreparo": "25 minutos"
+            }
+        ]
+    }
+}

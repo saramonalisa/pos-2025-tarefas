@@ -1,0 +1,123 @@
+{
+    "quiz": {
+        "disciplina": "Programação Orientada a Serviços",
+        "professor": {
+            "nome": "Diego Cirilo",
+            "matrícula": "987654"
+        },
+        "turma": "Infoweb 4M",
+        "data": "2025-05-22",
+        "questoes": [
+            {
+                "enunciado": "O que é um serviço em Programação Orientada a Serviços (POS)?",
+                "pontuacao": 2,
+                "alternativas": [
+                    {
+                        "texto": "Um componente de software que oferece uma funcionalidade específica para outros sistemas ou aplicações.",
+                        "correta": true
+                    },
+                    {
+                        "texto": "Um banco de dados que armazena informações de serviços de clientes.",
+                        "correta": false
+                    },
+                    {
+                        "texto": "Uma aplicação que pode ser executada de forma autônoma sem interagir com outros sistemas.",
+                        "correta": false
+                    },
+                    {
+                        "texto": "Uma API que apenas retorna dados estáticos para o usuário.",
+                        "correta": false
+                    }
+                ]
+            },
+            {
+                "enunciado": "Qual é a principal característica da Programação Orientada a Serviços?",
+                "pontuacao": 2,
+                "alternativas": [
+                    {
+                        "texto": "A execução de código diretamente no banco de dados.",
+                        "correta": false
+                    },
+                    {
+                        "texto": "A criação de aplicativos monolíticos que dependem de um único servidor.",
+                        "correta": false
+                    },
+                    {
+                        "texto": "A construção de sistemas baseados em componentes independentes que se comunicam via redes.",
+                        "correta": true
+                    },
+                    {
+                        "texto": "A integração de sistemas sem utilizar APIs ou protocolos de comunicação.",
+                        "correta": false
+                    }
+                ]
+            },
+            {
+                "enunciado": "O que é uma API em Programação Orientada a Serviços?",
+                "pontuacao": 2,
+                "alternativas": [
+                    {
+                        "texto": "Uma ferramenta para desenhar interfaces gráficas.",
+                        "correta": false
+                    },
+                    {
+                        "texto": "Um conjunto de definições que permite que diferentes sistemas se comuniquem entre si.",
+                        "correta": true
+                    },
+                    {
+                        "texto": "Um banco de dados que armazena dados de usuários de um sistema.",
+                        "correta": false
+                    },
+                    {
+                        "texto": "Um tipo de linguagem de programação utilizada para a criação de software.",
+                        "correta": false
+                    }
+                ]
+            },
+            {
+                "enunciado": "Qual protocolo é comumente utilizado para a comunicação entre serviços em uma arquitetura de Programação Orientada a Serviços?",
+                "pontuacao": 2,
+                "alternativas": [
+                    {
+                        "texto": "FTP (File Transfer Protocol)",
+                        "correta": false
+                    },
+                    {
+                        "texto": "SMTP (Simple Mail Transfer Protocol)",
+                        "correta": false
+                    },
+                    {
+                        "texto": "HTTP (HyperText Transfer Protocol)",
+                        "correta": true
+                    },
+                    {
+                        "texto": "POP3 (Post Office Protocol 3)",
+                        "correta": false
+                    }
+                ]
+            },
+            {
+                "enunciado": "Qual é o objetivo do conceito de \"microservices\" na Programação Orientada a Serviços?",
+                "pontuacao": 2,
+                "alternativas": [
+                    {
+                        "texto": "Fazer com que todos os componentes do sistema compartilhem um único banco de dados.",
+                        "correta": false
+                    },
+                    {
+                        "texto": "Permitir que um único serviço execute várias funções de forma simultânea.",
+                        "correta": false
+                    },
+                    {
+                        "texto": "Dividir a aplicação em pequenos serviços independentes, cada um com sua própria responsabilidade.",
+                        "correta": true
+                    },
+                    {
+                        "texto": "Concentrar todas as funcionalidades em um único servidor para melhorar a performance.",
+                        "correta": false
+                    }
+                ]
+            }
+        ]
+    }
+}

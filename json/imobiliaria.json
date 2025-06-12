@@ -1,0 +1,110 @@
+{
+    "imobiliaria": {
+        "imovel": [
+            {
+                "descricao": "Apartamento moderno com varanda gourmet.",
+                "proprietario": {
+                    "nome": "João Silva",
+                    "telefone": [
+                        "11999999999",
+                        "11988888888"
+                    ],
+                    "email": "joao.silva@email.com"
+                },
+                "endereco": {
+                    "rua": "Rua das Palmeiras",
+                    "bairro": "Jardim América",
+                    "cidade": "São Paulo",
+                    "numero": 100
+                },
+                "caracteristicas": {
+                    "tamanho": 85,
+                    "numQuartos": 2,
+                    "numBanheiros": 2
+                },
+                "valor": 750000
+            },
+            {
+                "descricao": "Casa ampla com quintal e churrasqueira.",
+                "proprietario": {
+                    "nome": "Maria Oliveira",
+                    "telefone": [
+                        "21977777777"
+                    ]
+                },
+                "endereco": {
+                    "rua": "Rua das Flores",
+                    "bairro": "Centro",
+                    "cidade": "Rio de Janeiro",
+                    "numero": 205
+                },
+                "caracteristicas": {
+                    "tamanho": 150,
+                    "numQuartos": 4,
+                    "numBanheiros": 3
+                },
+                "valor": 980000
+            },
+            {
+                "descricao": "Studio compacto ideal para estudantes.",
+                "proprietario": {
+                    "nome": "Paulo Mendes",
+                    "email": "paulo@email.com"
+                },
+                "endereco": {
+                    "rua": "Avenida Central",
+                    "bairro": "Universitário",
+                    "cidade": "Campinas"
+                },
+                "caracteristicas": {
+                    "tamanho": 35,
+                    "numQuartos": 1,
+                    "numBanheiros": 1
+                },
+                "valor": 220000
+            },
+            {
+                "descricao": "Sobrado de luxo com piscina.",
+                "proprietario": {
+                    "nome": "Luciana Pereira",
+                    "telefone": [
+                        "31966666666"
+                    ],
+                    "email": "luciana@email.com"
+                },
+                "endereco": {
+                    "rua": "Rua do Sol",
+                    "bairro": "Luxor",
+                    "cidade": "Belo Horizonte",
+                    "numero": 45
+                },
+                "caracteristicas": {
+                    "tamanho": 200,
+                    "numQuartos": 5,
+                    "numBanheiros": 4
+                },
+                "valor": 1500000
+            },
+            {
+                "descricao": "Kitnet próxima ao metrô.",
+                "proprietario": {
+                    "nome": "Fernando Lima",
+                    "telefone": [
+                        "11955555555"
+                    ]
+                },
+                "endereco": {
+                    "rua": "Rua dos Estudantes",
+                    "bairro": "Liberdade",
+                    "cidade": "São Paulo"
+                },
+                "caracteristicas": {
+                    "tamanho": 30,
+                    "numQuartos": 1,
+                    "numBanheiros": 1
+                },
+                "valor": 190000
+            }
+        ]
+    }
+}
