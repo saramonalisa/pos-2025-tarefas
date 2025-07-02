@@ -1,17 +1,17 @@
 import json
 
 with open("parsers/imobiliaria.json", "r", encoding="utf-8") as json_file:
-    imobiliaria = json.load(json_file)  # Carrega o JSON como uma lista de imóveis
+    imobiliaria = json.load(json_file)
 
 print("Imóveis:")
 id = 0
 for imovel in imobiliaria:
     id += 1
-    descricao = imovel["descricao"]  # Acessa diretamente a chave "descricao"
+    descricao = imovel["descricao"] 
     print(f"{id} - {descricao}")
 
 id_lido = int(input("Digite o id do imóvel para saber mais: "))
-imovel = imobiliaria[id_lido - 1]  # Acessa o imóvel pelo índice (ID - 1)
+imovel = imobiliaria[id_lido - 1] 
 
 descricao = imovel["descricao"]
 
