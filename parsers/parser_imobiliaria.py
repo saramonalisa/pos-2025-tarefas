@@ -1,6 +1,5 @@
 import json
 
-# Carregar o arquivo JSON
 with open("parsers/imobiliaria.json", "r", encoding="utf-8") as json_file:
     imobiliaria = json.load(json_file)  # Carrega o JSON como uma lista de imóveis
 
@@ -11,11 +10,9 @@ for imovel in imobiliaria:
     descricao = imovel["descricao"]  # Acessa diretamente a chave "descricao"
     print(f"{id} - {descricao}")
 
-# Solicitar o ID do imóvel ao usuário
 id_lido = int(input("Digite o id do imóvel para saber mais: "))
 imovel = imobiliaria[id_lido - 1]  # Acessa o imóvel pelo índice (ID - 1)
 
-# Extrair informações do imóvel selecionado
 descricao = imovel["descricao"]
 
 proprietario = imovel["proprietario"]
@@ -36,7 +33,6 @@ num_banheiros = caracteristicas["numBanheiros"]
 
 valor = imovel.get("valor", "Não informado")
 
-# Exibir as informações do imóvel selecionado
 print("\nDetalhes do imóvel:")
 print(f"Descrição: {descricao}")
 print(f"Proprietário: {nome_proprietario}")
