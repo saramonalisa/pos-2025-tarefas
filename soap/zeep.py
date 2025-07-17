@@ -6,11 +6,11 @@ def main():
     client = Client(wsdl=wsdl_url)
     
     try:
-        number = int(input("Digite um número inteiro: "))
+        numero = int(input("Digite um número inteiro: "))
         
-        result = client.service.NumberToWords(ubiNum=number)
+        resultado = client.service.NumberToWords(ubiNum=numero)
         
-        print(f"O número {number} por extenso em inglês é: {result}")
+        print(f"O número {num} por extenso em inglês é: {resultado}")
     except Exception as e:
         print(f"Ocorreu um erro: {e}")
 
