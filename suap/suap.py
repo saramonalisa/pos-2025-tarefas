@@ -26,10 +26,11 @@ def get_nota(etapa):
     return etapa.get("nota") if etapa and etapa.get("nota") is not None else "--"
 
 def boletim():
-    response = requests.get(api_url + "edu/meu-boletim/2025/1", headers=headers)
+    ano = input("Digite o ano letivo (ex: 2025): ")
+    response = requests.get(f"{api_url}edu/meu-boletim/{ano}/1", headers=headers)
     if response.status_code == 200:
         boletim_data = response.json()
-        
+
         print(f"{'Disciplina':<80}{'1ª Etapa':<10}{'2ª Etapa':<10}{'3ª Etapa':<10}{'4ª Etapa':<10}")
         print("-" * 120)
         
