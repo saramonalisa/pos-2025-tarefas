@@ -7,14 +7,18 @@ let categoriaAtual = null;
 let paginaAtual = 1;
 const porPagina = 8;
 
-const categoriaList = document.getElementById('categoriaList');
-const categoriasContainer = document.getElementById('categoriasContainer');
-const receitasContainer = document.getElementById('receitasContainer');
-const detalhesReceita = document.getElementById('detalhesReceita');
-const detalhesTitulo = document.getElementById('detalhesReceitaModalLabel');
-const searchName = document.getElementById('searchName');
-const searchIngredient = document.getElementById('searchIngredient');
-const paginationContainer = document.getElementById('pagination');
+let categoriaList, categoriasContainer, receitasContainer, detalhesReceita, detalhesTitulo, searchName, searchIngredient, paginationContainer;
+
+export function inicializarElementos() {
+  categoriaList = document.getElementById('categoriaList');
+  categoriasContainer = document.getElementById('categoriasContainer');
+  receitasContainer = document.getElementById('receitasContainer');
+  detalhesReceita = document.getElementById('detalhesReceita');
+  detalhesTitulo = document.getElementById('detalhesReceitaModalLabel');
+  searchName = document.getElementById('searchName');
+  searchIngredient = document.getElementById('searchIngredient');
+  paginationContainer = document.getElementById('pagination');
+}
 
 export async function carregarCategorias() {
   try {
